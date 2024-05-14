@@ -20,10 +20,10 @@ local.properties
 /.idea/gradle.xml
 /.idea/misc.xml
 .idea
-
 **/build/
-
 /convention-plugins
 /gradlew
 /gradlew.bat
 /gradle
+/convention-plugins/build
+/convention-plugins/.gradle
