@@ -38,6 +38,10 @@ kotlin {
                 implementation(project(":common"))
                 implementation(compose.desktop.currentOs)
                 implementation("org.jetbrains.skiko:skiko-awt-runtime-$target:$version")
+
+                implementation("org.apache.poi:poi:5.1.0") //读取xlsx
+                implementation("org.apache.poi:poi-ooxml:5.1.0")
+                implementation("com.google.code.gson:gson:2.10.1")
             }
         }
         val jvmTest by getting
