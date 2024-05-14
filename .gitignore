@@ -22,3 +22,8 @@ local.properties
 .idea
 
 **/build/
+
+/convention-plugins
+/gradlew
+/gradlew.bat
+/gradle
